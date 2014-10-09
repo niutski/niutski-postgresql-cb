@@ -1,0 +1,5 @@
+include_recipe "postgresql::yum_pgdg_postgresql"
+include_recipe "postgresql::server"
+include_recipe "postgresql::config_pgtune"
+include_recipe "postgresql::config_initdb"
+include_recipe "postgresql::contrib"
